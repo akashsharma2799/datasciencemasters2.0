@@ -1,0 +1,11 @@
+a=int(input("enter first digit:"))
+b=int(input("entersecond digit:"))
+i=sum=0
+c=a%b
+if(c==0):
+    while(i<=a):
+        sum+=1
+        i+=b
+    print("b divides a by", sum ,"times")
+else:
+    print("a  is not divisible by b")
